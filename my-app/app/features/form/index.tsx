@@ -1,7 +1,7 @@
 /* eslint-disable react/no-array-index-key */
 import React, { memo, useCallback, useState } from 'react';
 import { Button } from '@mui/material';
-import { ModalAddCountryView } from '@/app/view/modal-add-country-view';
+import { ModalAddCountryView } from '@/app/features/modal-add-country';
 import { CountryForm } from '@/app/features/form/country-form';
 import { parseResult } from '@/schema';
 import { ModalForm } from '@/types';
