@@ -26,7 +26,7 @@ export const ModalAddCountryView = memo(({ closeModal, openModal }: Props) => {
     (data: ModalForm) => {
       json.push(data);
       // eslint-disable-next-line no-console
-      console.log({ json });
+      console.log(JSON.stringify(json));
       closeModal();
     },
     [closeModal],
